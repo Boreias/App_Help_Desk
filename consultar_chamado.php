@@ -5,7 +5,8 @@
   //chamados
   $chamados = array();
 
-  $arquivo =  fopen('../../app_help_desk/arquivo.txt', 'r');
+  // $arquivo =  fopen('../../app_help_desk/arquivo.txt', 'r');
+  $arquivo =  fopen('__private/arquivo.txt', 'r');
 
   //enquanto houver registros (linhas) a serem recuperados
   //feof teste pelo fim de um arquivo
